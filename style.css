@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.carousel-item{
+    height: 100vh;
+}
+.img-box{
+    width: 550px;
+    position: relative;
+}
+.pic-one{
+    width: 100%;
+}
+.pic-two{
+    width: 100px;
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+}
+.pic-three{
+    width: 75px;
+    position: absolute;
+    left: 150px;
+    bottom: 70px;
+}
+.pic-four{
+    width: 160px;
+    position: absolute;
+    right: 40px;
+    top: 110px;
+}
+.pic-five{
+    width: 110px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+.pic-six{
+    width: 160px;
+    position: absolute;
+    right: 160px;
+    bottom: 35px;
+}
+.slide-one{
+    background: #b0c6f5;
+}
+.carousel-item .row{
+    margin: 12% 0;
+}
+.carousel-item h1{
+    margin-top: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+.carousel-item p{
+    margin-top: 30px 0 50px;
+    font-size: 13px;
+    color: #fff;
+}
+.carousel-item button{
+    padding: 8px 20px;
+    background-color: #0c5ce3;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.slide-two{
+    background-color: #f7f7f7;
+}
+.slide-two h1, .slide-two p{
+    color: #feb154;
+}
+.img-one{
+    width: 100%;
+}
+.img-two{
+    width: 200px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.img-three{
+    width: 70px;
+    position: absolute;
+    left: 245px;
+    bottom: 55px;
+}
+.img-four{
+    width: 60px;
+    position: absolute;
+    right: 155px;
+    bottom: 95px;
+}
+.img-five{
+    width: 100px;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+.slide-two button{
+    background: linear-gradient(to right, #feb154, #ffd255);
+}
